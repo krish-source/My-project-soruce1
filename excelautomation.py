@@ -1,5 +1,5 @@
 import openpyxl
-book =openpyxl.load_workbook(r"C:\Users\amznkris\Documents\excelautomation\Demo.xlsx")
+book =openpyxl.load_workbook(r"C:")
 sheet =book.active
 cell =sheet.cell(row=1, column=2)
 cell2 =sheet.cell(row=1, column=3)
